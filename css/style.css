@@ -16,7 +16,7 @@ footer{
     align-items: center;
 }
 
-.box-left{
+.box-left,.box-right{
     display: flex;
     width:50%;
     justify-content: space-around;
@@ -28,6 +28,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin:0 10px;
 }
 .icone{
     display: flex;
@@ -57,4 +58,11 @@ footer{
 
 .icone .active{
     color: greenyellow;
+}
+
+.box-right .right div{
+    display: flex;
+    align-items: stretch;
+    color:brown;
+    background-color: rgb(95, 95, 95);
 }
