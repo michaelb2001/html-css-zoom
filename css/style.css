@@ -70,3 +70,45 @@ footer{
     
 
 }
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    padding:40px;
+    width: 90%;
+    margin:auto;
+}
+
+.foto{
+    background-image: url(https://picsum.photos/246/146);
+    background-size: cover;
+    height:100px;
+    width: calc(100% / 8);
+    margin:15px 5px;
+    z-index: 2;
+    position: relative;
+}
+
+.name{
+    background-color: rgba(185, 179, 179,.5);
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    padding: 5px 10px;
+}
+
+.name i,.name span{
+    font-size: 15px;
+    color: white;
+
+}
