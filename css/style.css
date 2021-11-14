@@ -84,7 +84,7 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     align-self: center;
-    padding:10px;
+    padding: 0px 0px 70px 0px;
     width: 90%;
     margin:auto;
 }
@@ -112,3 +112,24 @@ main{
     color: white;
 
 }
+
+.view-speaker{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view-speaker div{
+    background-color: rgba(185, 179, 179,.5) ;
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: white;
+}
+
+.view-speaker div:nth-child(2){
+    margin-left:5px;
+}
+
+
+
+
+
