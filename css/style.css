@@ -37,12 +37,12 @@ footer{
     justify-content: center;
     color: white;
     font-size: 20px;
-    margin:0 10px;
+    margin:0 5px;
 }
 
 .icone div{
-    font-size: 15px;
     color: white;
+    font-size: 15px;
 }
 .left{
     display: flex;
